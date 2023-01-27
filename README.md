@@ -15,3 +15,6 @@ Feito por Programadores para programadores, O EscBook irá ser um aplicativo mui
 
 ### Quero ajudar como faço?
 Você quer ajudar e ter uma experiência no seu currículo?, é só procurar por bugs ou outras coisas e atualizar.
+
+### Soltaremos o aplicativo em breve para vocês:
+Estamos fazendo o mais rápido possível para trazer esse projeto para vocês devs.

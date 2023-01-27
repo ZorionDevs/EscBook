@@ -10,8 +10,8 @@ Feito por Programadores para programadores, O EscBook irá ser um aplicativo mui
  * **Jobs**: Essa parte irá mostrar vagas de empregos para devs.
  
  #### Novidades a ser implantadas:
-  * LaraDev a Nossa inteligência artificial.
-  * Área de estilização do perfil, onde você poderá colocar seu currículo e seu Github ou LinkedIn.
+  * **LaraDev**: a Nossa inteligência artificial que irá ajudar os devs.
+  * **Área de estilização do perfil**:, onde você poderá colocar seu currículo e seu Github ou LinkedIn.
 
 ### Quero ajudar como faço?
 Você quer ajudar e ter uma experiência no seu currículo?, é só procurar por bugs ou outras coisas e atualizar.

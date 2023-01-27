@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "category": "Comunidade"
+  },
+  {
+    "id": 2,
+    "category": "Cursos"
+  },
+  {
+    "id": 3,
+    "category": "Livros"
+  },
+  {
+    "id": 4,
+    "category": "RoadMaps"
+  }
+]

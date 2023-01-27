@@ -2,21 +2,21 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#fff",
+    backgroundColor: "#1d1d1d",
     paddingTop: 30,
     alignItems: 'center'
   },
   header: {
     flexDirection: "row",
     alignItems: "center",
-    position: 'relative',
-    left: -58
+    width: '100%',
+    height: 50,
+    paddingLeft: 10
   },
   headerTitle: {
-    color: "#161616",
+    color: "#bcbcbc",
     fontWeight: "bold",
     fontSize: 30,
-    marginLeft: 110,
   },
   barsHorizontal: {
     width: "96%",

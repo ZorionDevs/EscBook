@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "EscBook3",
+    "name": "EscBook",
     "slug": "EscBook3",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -30,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17e6e95a-ec65-41e8-8348-3c510ad39f60"
+      }
     }
   }
 }

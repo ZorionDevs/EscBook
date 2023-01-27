@@ -70,9 +70,11 @@ export function BellAlertBox(){
     <View style={styles.container}>
       <View style={styles.header}>
         <TouchableOpacity onPress={() => navigation.navigate('Home')}>
-          <Icon name="arrow-left" size={30} color="#161616" />
+          <Icon name="arrow-left" size={30} color={styles.headerTitle.color} />
         </TouchableOpacity>
-        <Text style={styles.headerTitle}>Mensagens</Text>
+        <View style={{alignItems: 'center', width: '90%'}}>
+          <Text style={styles.headerTitle}>Mensagens</Text>
+        </View>
       </View>
       
       <View style={styles.barsHorizontal}></View>

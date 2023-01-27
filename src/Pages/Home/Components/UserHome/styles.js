@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   searchInput: {
     height: 50,
     marginLeft: 10,
-    width: '79%',
+    width: '76%',
     color: '#c4c4c4'
   },
   buttonSearch: {
@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     height: 35,
     width: 35,
     justifyContent: 'center',
+    alignItems: 'center',
     alignItems: 'center',
     borderRadius: 7,
     marginLeft: 5

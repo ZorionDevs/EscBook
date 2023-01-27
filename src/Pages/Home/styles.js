@@ -1,25 +1,24 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, useWindowDimensions, PixelRatio } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#1d1d1d',
-    height: '100%',
-    width: '100%',
-    paddingTop: 30,
+    paddingTop: 35,
     paddingLeft: 10,
     paddingRight: 10,
-    alignItems: 'center'
+    alignItems: 'center',
+    height: '100%'
   },
   viewProfile: {
     backgroundColor: '#161616',
     height: 190,
-    width: '100%',
+    width: 390,
     borderRadius: 30,
     paddingLeft: 15,
     paddingRight: 15,
+    marginBottom: 10,
     alignItems: 'center',
-    flexDirection: 'row',
-    marginBottom: 10
+    paddingTop: 30
   },
   userIcon: {
     height: 55,
@@ -40,9 +39,7 @@ const styles = StyleSheet.create({
   viewButtonsHeader: {
     alignItems: 'center',
     flexDirection: 'row',
-    position: 'absolute',
-    left: 270,
-    top: -20,
+    marginLeft: 10
   },
   buttonHeader: {
     height: 45,
@@ -56,26 +53,14 @@ const styles = StyleSheet.create({
   buttonHeaderText: {
     color: '#dddddd'
   },
-  boxCommunity: {
-    marginBottom: 20,
-    width: 400
-  },
-  headerBox: {
-    flexDirection: 'row',
+  bottomView: {
+    height: '90%',
     width: '100%',
-    alignItems: 'center'
-  },
-  titleBox: {
-    color: '#c2c2c2',
-    fontWeight: 'bold',
-    fontSize: 18
-  },
-  resultBox: {
-    backgroundColor: '#181818',
-    width: '100%',
-    height: 250,
-    borderRadius: 15,
-    marginTop: 5
+    alignItems: 'center',
+    paddingTop: 10,
+    paddingRight: 10,
+    paddingLeft: 10,
+    paddingBottom: 120
   }
 });
 

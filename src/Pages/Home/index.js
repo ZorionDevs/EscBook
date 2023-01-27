@@ -12,13 +12,13 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import IconT from 'react-native-vector-icons/Fontisto';
 import styles from './styles';
 import UserHome from './Components/UserHome';
-import ListInteracion from './Components/ListInteracion';
+import ListInteracion from './Components/ListView';
 import { AlertBell } from '../../Functions/AlertBell';
 import { useNavigation } from '@react-navigation/native';
 
 export default function Home(){
   const navigation = useNavigation();
-  const Data = require('./Components/ListInteracion/listInfos.json');
+  const Data = require('./Components/ListView/listInfos.json');
   
   return (
     <View style={styles.container}>
